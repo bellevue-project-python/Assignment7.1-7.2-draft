@@ -18,7 +18,7 @@ while True:
 	Address = input('please enter your address')+','
 	with open(Tpath, 'w+') as file_object:
 		file_object.write(Name)
-		file_object.write(Number)
+		file_object.write(Number)       #idk
 		file_object.write(Address)
 		file_object.close()
 
